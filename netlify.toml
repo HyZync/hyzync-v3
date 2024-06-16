@@ -3,13 +3,11 @@
   publish = "build"
 
 [[redirects]]
-  # Redirect all requests to /bionic/* to /bionic/index.html
   from = "/bionic/*"
   to = "/build/index.html"
   status = 200
 
 [[redirects]]
-  # If a 404 occurs, redirect to /index.html (for SPA behavior)
   from = "/*"
-  to = "/index.html"
+  to = "/build/index.html"
   status = 200
