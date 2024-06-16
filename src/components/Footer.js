@@ -25,7 +25,7 @@ const Footer = () => {
                     </div> */}
 
                     {/* 2nd block */}
-                    <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
+                    {/* <div className="col-span-6 md:col-span-6 lg:col-span-1 ml-7 mx-auto">
                         <h6 className="text-[#013289] text-xl font-bold mb-4">LINKS</h6>
                         <ul className="text-md">
                         <li className="mb-2">
@@ -38,10 +38,10 @@ const Footer = () => {
                             <HashLink to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Contact</HashLink>
                         </li>                            
                         </ul>
-                    </div>
+                    </div> */}
 
                     {/* 3rd block */}
-                    <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
+                    {/* <div className="col-span-6 md:col-span-6 lg:col-span-4 mx-auto">
                         <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
                         <ul className="text-md">
                         <li className="mb-2">
@@ -57,7 +57,7 @@ const Footer = () => {
                             <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">General IT Consultations</Link>
                         </li>
                         </ul>
-                    </div>
+                    </div> */}
 
                     {/* 4th block */}
                     <div className="col-span-12 text-center mx-auto lg:col-span-3 font-bold uppercase text-blue-900">
@@ -66,7 +66,7 @@ const Footer = () => {
                         </div>
 
                                 <div className="text-md font-medium mb-6">
-                                    Follow us on social media.
+                                    {/* Follow us on social media. */}
                                 </div>
 
                         {/* <div className="mx-auto text-center mt-2">
@@ -91,7 +91,7 @@ const Footer = () => {
                                 {/* imported the icons from the contact page */}
 
                               <div className="flex my-4 w-2/3 lg:w-1/2">
-                                <a href="https://www.linkedin.com/company/hyzync/" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900  w-8  mx-1 text-center pt-1">
+                                <a href="https://www.facebook.com/profile.php?id=61553906507497" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900  w-8  mx-1 text-center pt-1">
                                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-current font-black hover:animate-pulse'><path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path></svg>
                                 </a>
                               <a href="https://www.linkedin.com/company/hyzync/" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900  w-8  mx-1 text-center pt-1">
