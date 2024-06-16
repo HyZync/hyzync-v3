@@ -9,5 +9,5 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://hyzyncv2.netlify.apps"
+  to = "https://hyzyncv2.netlify.app"
   status = 200
