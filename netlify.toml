@@ -3,11 +3,11 @@
   publish = "build"
 
 [[redirects]]
-  from = "/bionic/*"
-  to = "/index.html"
+  from = "https://hyzyncv2.netlify.app/bionic/*"
+  to = "https://hyzyncv2.netlify.app"
   status = 200
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "https://hyzyncv2.netlify.apps"
   status = 200
