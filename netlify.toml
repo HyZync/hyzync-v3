@@ -1,3 +1,13 @@
 [build]
   command = "npm run build"
   publish = "build"
+
+[[redirects]]
+  from = "/bionic/*"
+  to = "/bionic/index.html"
+  status = 200
+
+[[headers]]
+  for = "/bionic/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
