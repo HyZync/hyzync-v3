@@ -5,7 +5,7 @@
 [[redirects]]
   # Redirect all requests to /bionic/* to /bionic/index.html
   from = "/bionic/*"
-  to = "/bionic/index.html"
+  to = "/build/index.html"
   status = 200
 
 [[redirects]]
