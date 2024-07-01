@@ -9,32 +9,32 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-/* .hero {
+.hero {
   background: url(./images/hero-bg.svg) top center no-repeat;
   background-size: cover;
-} */
+}
 
-.hero {
-  position: relative; /* Add relative positioning to .hero */
+/* .hero {
+  position: relative; 
   background: url(./images/hero-bg.svg) top center no-repeat;
   background-size: cover;
   width: 100%;
-  height: 107vh; /* Adjust as necessary */
+  height: 90vh; 
 }
 
 .overlay-svg-container {
-  position: absolute; /* Position the overlay container absolutely within .hero */
-  bottom: 0; /* Adjust as necessary */
+  position: absolute; 
+  bottom: 0; 
   left: 0;
   width: 100%;
   height: auto;
-  z-index: 10; /* Ensure this is above the hero background */
+  z-index: 10; 
 }
 
 .overlay-svg-container svg {
   width: 100%;
   height: auto;
-}
+} */
 
 .footer {
   background: url(./images/footer.svg) top center no-repeat;
