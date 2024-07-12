@@ -13,13 +13,13 @@ const Intro = () => {
                         </div>
                         <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
                             
-                            <h3 className="text-3xl  text-blue-900 font-bold">Transforming Data into Insightful Action</h3>
+                            <h3 className="text-3xl  text-blue-900 font-bold">Discover the Future of Healthcare with Hyzync's Bionic!</h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>Data Alchemy: Transforming Insights into Gold! Elevate decision-making with real-time analytics, predictive modeling, and actionable intelligence.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>Our advanced Decision Support Tool utilizes cutting-edge correlation and coreset based ML technology to accurately predict the risk of fatal cardiovascular events.</p>
                             </div>
                             
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>Unlock growth potential with our expert-guided solutions.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>Empower healthcare professionals with real-time analytics, predictive modeling, and actionable intelligence to gain deeper insights into critical heart conditions and enhance patient outcomes.</p>
                             </div>
                             <Link to="/contact" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-2 my-4 text-lg shadow-xl rounded-2xl sm:w-auto sm:mb-0 group">
                                 Contact us

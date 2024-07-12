@@ -26,7 +26,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Advanced AI</h2>
                                     <p className="text-md font-medium">
-                                        We specialize in creating and optimizing high-quality, custom websites for businesses and organizations of all sizes. Building mobile-friendly and easy-to-use websites and applications for clients.
+                                    Bionic's Advanced AI utilizes core-set based models to deliver precise and efficient predictions in healthcare. This innovative approach optimizes data processing by focusing on representative subsets of data, enhancing the accuracy of risk assessments for cardiovascular events. By leveraging these advanced algorithms, Bionic empowers healthcare professionals with actionable insights and robust decision-making tools for improved patient outcomes.
                                     </p>
                                 </div>
                             </div>
@@ -36,7 +36,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Bionic Secure</h2>
                                     <p className="text-md font-medium">
-                                        We develop high-quality, custom cross-platform mobile applications that are robust and optimized for performance, scalability, and accessibility.
+                                    Prioritizing Health Data Security with Hyzync's Bionic. Our platform employs state-of-the-art encryption and secure data handling practices to ensure the confidentiality and integrity of patient information. Advanced security protocols safeguard health data at every stage, providing healthcare professionals with peace of mind while utilizing our innovative tools for risk prediction and critical heart condition analysis.
                                     </p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@ const Services = () => {
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Intelligent Correlations Tech</h2>
                                     <p className="text-md font-medium">
-                                        We provide domain registration and web hosting services to individuals and organizations to enable them gain visibility in the digital space.
+                                    Hyzync's Bionic leverages advanced intelligent correlation algorithms to deliver powerful insights into cardiovascular health. These algorithms analyze complex data sets to identify relationships between various health metrics, enabling precise risk predictions for fatal cardiovascular events. By uncovering hidden patterns and correlations, Bionic empowers healthcare professionals to make informed decisions and develop personalized treatment strategies, ultimately enhancing patient outcomes.
                                     </p>
                                 </div>
                             </div>
@@ -56,7 +56,7 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Universal Device Connectivity</h2>
                                     <p className="text-md font-medium">
-                                        Our IT consultations service provides expert guidance and support for businesses and individuals looking to optimize their technology solutions.
+                                    Seamless Universal Connectivity: Hyzync's Bionic Application Integrates Effortlessly with ECG Machines. Our platform ensures compatibility across various ECG devices, facilitating streamlined data collection and analysis. Healthcare professionals can easily access and interpret real-time cardiac data, enhancing diagnostic accuracy and patient care efficacy.
                                     </p>
                                 </div>
                             </div>                    
