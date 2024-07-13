@@ -98,10 +98,15 @@ const Footer = () => {
                                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-current font-black hover:animate-pulse'><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
                              </a>
                              <a href="https://www.twitter.com/profile.php?id=61553906507497" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900 w-8 mx-1 text-center pt-1">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-current font-black hover:animate-pulse'>
+                                  <path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.37 4.37 0 0 0 1.92-2.41c-.84.5-1.77.87-2.76 1.06a4.41 4.41 0 0 0-7.5 4c-3.67-.18-6.94-1.94-9.12-4.61a4.41 4.41 0 0 0-.6 2.22 4.39 4.39 0 0 0 1.96 3.66 4.39 4.39 0 0 1-2-.55v.06a4.41 4.41 0 0 0 3.54 4.32 4.4 4.4 0 0 1-2 .07 4.42 4.42 0 0 0 4.13 3.07A8.86 8.86 0 0 1 2 19.54 12.46 12.46 0 0 0 8.29 21c7.55 0 11.67-6.26 11.67-11.67 0-.18-.01-.36-.02-.54A8.35 8.35 0 0 0 22.46 6z"></path>
+                                  </svg>
+                             </a>
+                             {/* <a href="https://www.twitter.com/profile.php?id=61553906507497" target="_blank" rel="noreferrer" className="rounded-full flex justify-center bg-white h-8 text-blue-900 w-8 mx-1 text-center pt-1">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className='fill-current font-black hover:animate-pulse'>
                                 <path d="M24 1.438l-10.938 10.563L24 22.563V24H19.563l-6.563-6.563-6.563 6.563H0v-1.438L10.438 12.001 0 1.438V0h4.438L12 6.563 19.563 0H24v1.438z"></path>
                                 </svg>
-                            </a>
+                            </a> */}
                     </div>
                     </div>          
 
@@ -110,13 +115,13 @@ const Footer = () => {
                     <div className="flex flex-wrap items-center md:justify-between justify-center mx-auto px-4">
                 <div className="w-full md:w-4/12 px-4 mx-auto text-center py-2">
                     <div className="text-sm text-gray-200 font-semibold py-1">
-                    Copyright &copy; {new Date().getFullYear()}{"  "}
+                    {/*Copyright*/} &copy; {new Date().getFullYear()}{"  "}
                     <HashLink
                         to="#"
                         className=" hover:text-gray-900"
                     >
                         Hyzync
-                    </HashLink>. All rights reserved.
+                     </HashLink>. {/*All rights reserved. */}
                     </div>
                 </div>
                 </div>
