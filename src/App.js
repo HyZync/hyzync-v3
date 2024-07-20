@@ -11,6 +11,7 @@ import {
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import DemoProduct from './pages/DemoProduct';
+import Products from './pages/Products';
 import Blog from './pages/Blog';
 
 import {useDocTitle} from './components/CustomHook';
@@ -40,6 +41,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/blog" element={<Blog />} />
+            <Route path="/products" element={<Products />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/get-demo" element={<DemoProduct />} /> 
           </Routes>
