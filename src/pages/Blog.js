@@ -64,7 +64,7 @@ const Blog = (props) => {
             </div>
             <div id='blog' className="flex justify-center items-center mt-8 w-full bg-white py-12 lg:py-24">
                 <div className="container mx-auto my-8 px-4 lg:px-5 flex flex-col items-center" data-aos="zoom-in">
-                    <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 rounded-2xl shadow-2xl">
+                    <div className="w-full bg-white p-12 my-4 md:px-16 lg:w-11/12 lg:px-32 rounded-2xl shadow-2xl">
                         <div className="flex justify-center">
                             <h1 className="font-bold text-center text-blue-900 uppercase text-4xl">Latest</h1>
                         </div>
@@ -121,7 +121,7 @@ const Blog = (props) => {
                             />
                         </div>
                     </div>
-                    <div className="w-full bg-white p-8 my-4 md:px-12 lg:w-9/12 lg:pl-20 lg:pr-40 rounded-2xl shadow-2xl mt-8">
+                    <div className="w-full bg-white p-12 my-4 md:px-16 lg:w-11/12 lg:px-32 rounded-2xl shadow-2xl mt-8">
                         <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
                     </div>
                 </div>
