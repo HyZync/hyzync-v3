@@ -13,9 +13,9 @@ const Intro = () => {
                         </div>
                         <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
                             
-                            <h3 className="text-3xl  text-blue-900 font-bold">Discover the Future of Healthcare with Hyzync's Bionic!</h3>
+                            <h3 className="text-3xl  text-blue-900 font-bold">Transform Heart Health with Bionic!</h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>Our advanced Decision Support Tool utilizes cutting-edge correlation and coreset based ML technology to accurately predict the risk of fatal cardiovascular events. Empower healthcare professionals with real-time analytics, predictive modeling, and actionable intelligence to gain deeper insights into critical heart conditions and enhance patient outcomes.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>Introducing Bionic, a decision support system for medical professionals from Hyzync, designed to analyze the risk of fatal cardiovascular events. Bionic only requires a simple ECG and is highly cost-effective. Try Bionic in the select few hospitals where it is now integrated. Healthcare institutions interested in integrating Bionic can contact us for more information.</p>
                             </div>
                             
                             {/* <div>
