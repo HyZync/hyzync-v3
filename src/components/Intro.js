@@ -15,7 +15,7 @@ const Intro = () => {
                             
                             <h3 className="text-3xl  text-blue-900 font-bold">Transform Heart Health with Bionic!</h3>
                             <div>
-                                <p className='my-3 text-xl text-gray-600 font-semibold'>Introducing Bionic, a decision support system for medical professionals from Hyzync, designed to analyze the risk of fatal cardiovascular events. Bionic only requires a simple ECG and is highly cost-effective. Try Bionic in the select few hospitals where it is now integrated. Healthcare institutions interested in integrating Bionic can contact us for more information.</p>
+                                <p className='my-3 text-xl text-gray-600 font-semibold'>Bionic utilizes cutting-edge correlation backed by experts and coreset-based ML technology to accurately analyze the risk of fatal cardiovascular events. It empowers healthcare professionals with actionable intelligence to gain deeper insights into critical heart conditions and enhance patient outcomes. Additionally, it features an integrated LLM with memory capability, which progressively enhances diagnostic accuracy over time. The accuracy and safety of Bionic are rigorously tested and validated internally to ensure reliability and effectiveness.</p>
                             </div>
                             
                             {/* <div>
