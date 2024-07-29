@@ -16,6 +16,13 @@ const Blog = (props) => {
 
     const linkedinPosts = [
         {
+            url: "https://www.linkedin.com/posts/hyzync_ai-innovation-healthcare-activity-7222863960343990272-zERa?utm_source=share&utm_medium=member_desktop",
+            img: "https://media.licdn.com/dms/image/D5622AQGrXxv3zpSb-Q/feedshare-shrink_800/0/1722064960504?e=1724889600&v=beta&t=zxHmNcRwOodRkemeq1tYUzL3w0JTFfxP1tVfoPyXx20",
+            description: "Human-AI Synergy: Transforming Medical Diagnostics",
+            author: "Bionic",
+            date: "2024-07-27"
+        },
+        {
             url: "https://www.linkedin.com/posts/hyzync_ai-innovation-data-activity-7220369692366970880-eHhr?utm_source=share&utm_medium=member_desktop",
             img: "https://media.licdn.com/dms/image/D5622AQH6iZHRWdyMGA/feedshare-shrink_800/0/1721470281469?e=1724284800&v=beta&t=g1Jzjqrko3wA1qniq7GrhxeK_T3_zwr1akD0i0rq390",
             description: "Prioritize cardiac health, Choose Bionic, live free.",
