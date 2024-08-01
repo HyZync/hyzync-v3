@@ -16,6 +16,13 @@ const Blog = (props) => {
 
     const linkedinPosts = [
         {
+            url: "https://www.linkedin.com/posts/hyzync_ai-life-hearthealth-activity-7224331889925308417-qWV1?utm_source=share&utm_medium=member_desktop",
+            img: "https://media.licdn.com/dms/image/D5622AQH0NPP7LZERyQ/feedshare-shrink_2048_1536/0/1722414942561?e=1725494400&v=beta&t=lK8tn_07GaGFBZqCRzpcMIOObhGTrJ_oGqhfOubyr00",
+            description: "Live fully, live healthy, live risk-free",
+            author: "Bionic",
+            date: "2024-07-31"
+        },
+        {
             url: "https://www.linkedin.com/posts/hyzync_ai-innovation-healthcare-activity-7222863960343990272-zERa?utm_source=share&utm_medium=member_desktop",
             img: "https://media.licdn.com/dms/image/D5622AQGrXxv3zpSb-Q/feedshare-shrink_800/0/1722064960504?e=1724889600&v=beta&t=zxHmNcRwOodRkemeq1tYUzL3w0JTFfxP1tVfoPyXx20",
             description: "Human-AI Synergy: Transforming Medical Diagnostics",
