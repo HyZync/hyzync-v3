@@ -1,0 +1,38 @@
+#career-page .job-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#career-page .job-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 6px 6px rgba(0, 0, 0, 0.19);
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page-link:hover {
+  background-color: #f1f1f1;
+}
+
+.active .page-link {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}

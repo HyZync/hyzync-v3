@@ -10,6 +10,7 @@ import {
 // All pages
 import Home from './pages/Home';
 import Contact from './pages/Contact';
+import Career from './pages/Career';
 import DemoProduct from './pages/DemoProduct';
 import Products from './pages/Products';
 import Blog from './pages/Blog';
@@ -40,6 +41,7 @@ function App() {
         <ScrollToTop>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/career" element={<Career />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/products" element={<Products />} />
             <Route path="/contact" element={<Contact />} />
