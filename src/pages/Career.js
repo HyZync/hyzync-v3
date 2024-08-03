@@ -16,21 +16,24 @@ const Career = () => {
             title: "Software Engineer",
             description: "We are looking for a skilled Software Engineer to join our team.",
             location: "New York, NY",
-            img: "https://via.placeholder.com/150"
+            img: "https://via.placeholder.com/150",
+            link: "https://example.com/software-engineer"
         },
         {
             id: 2,
             title: "Product Manager",
             description: "An experienced Product Manager is needed to lead our product team.",
             location: "San Francisco, CA",
-            img: "https://via.placeholder.com/150"
+            img: "https://via.placeholder.com/150",
+            link: "https://example.com/product-manager"
         },
         {
             id: 3,
             title: "UX Designer",
             description: "Creative UX Designer wanted to create intuitive user experiences.",
             location: "Austin, TX",
-            img: "https://via.placeholder.com/150"
+            img: "https://via.placeholder.com/150",
+            link: "https://example.com/ux-designer"
         },
         // Add more jobs as needed
     ];
@@ -81,12 +84,14 @@ const Career = () => {
                                     <h2 className="mt-4 text-2xl font-bold text-gray-800">{job.title}</h2>
                                     <p className="mt-2 text-gray-600">{job.description}</p>
                                     <p className="mt-2 text-gray-600">Location: {job.location}</p>
-                                    <button 
-                                        className="mt-4 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300"
-                                        onClick={() => alert(`Applying for ${job.title}`)}
+                                    <a 
+                                        className="mt-4 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300 inline-block"
+                                        href={job.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                     >
                                         Apply
-                                    </button>
+                                    </a>
                                 </div>
                             ))}
                         </div>
