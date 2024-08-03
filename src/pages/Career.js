@@ -9,6 +9,8 @@ const Career = () => {
     useDocTitle('Careers');
     const [searchTerm, setSearchTerm] = useState("");
     const [currentPage, setCurrentPage] = useState(0);
+    const [filterLocation, setFilterLocation] = useState("");
+    const [filterType, setFilterType] = useState("");
 
     const jobs = [
         {
@@ -16,6 +18,7 @@ const Career = () => {
             title: "Software Engineer",
             description: "We are looking for a skilled Software Engineer to join our team.",
             location: "New York, NY",
+            type: "Full-time",
             img: "https://via.placeholder.com/150",
             link: "https://example.com/software-engineer"
         },
@@ -24,6 +27,7 @@ const Career = () => {
             title: "Product Manager",
             description: "An experienced Product Manager is needed to lead our product team.",
             location: "San Francisco, CA",
+            type: "Full-time",
             img: "https://via.placeholder.com/150",
             link: "https://example.com/product-manager"
         },
@@ -32,6 +36,7 @@ const Career = () => {
             title: "UX Designer",
             description: "Creative UX Designer wanted to create intuitive user experiences.",
             location: "Austin, TX",
+            type: "Part-time",
             img: "https://via.placeholder.com/150",
             link: "https://example.com/ux-designer"
         },
@@ -49,7 +54,18 @@ const Career = () => {
         setCurrentPage(selected);
     };
 
-    const filteredJobs = jobs.filter(job => job.title.toLowerCase().includes(searchTerm.toLowerCase()));
+    const handleLocationFilter = (e) => {
+        setFilterLocation(e.target.value);
+    };
+
+    const handleTypeFilter = (e) => {
+        setFilterType(e.target.value);
+    };
+
+    const filteredJobs = jobs
+        .filter(job => job.title.toLowerCase().includes(searchTerm.toLowerCase()))
+        .filter(job => filterLocation ? job.location === filterLocation : true)
+        .filter(job => filterType ? job.type === filterType : true);
 
     const displayJobs = filteredJobs.slice(pagesVisited, pagesVisited + jobsPerPage);
 
@@ -64,14 +80,28 @@ const Career = () => {
                         <div className="flex justify-center">
                             <h1 className="font-bold text-center text-blue-900 uppercase text-4xl">Careers</h1>
                         </div>
-                        <div className="mt-8 w-full">
+                        <div className="mt-8 w-full flex flex-wrap justify-between items-center">
                             <input
                                 type="text"
                                 placeholder="Search jobs..."
                                 value={searchTerm}
                                 onChange={handleSearch}
-                                className="w-full p-3 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                className="w-full md:w-1/3 p-3 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                             />
+                            <select value={filterLocation} onChange={handleLocationFilter} className="w-full md:w-1/4 p-3 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option value="">All Locations</option>
+                                <option value="New York, NY">New York, NY</option>
+                                <option value="San Francisco, CA">San Francisco, CA</option>
+                                <option value="Austin, TX">Austin, TX</option>
+                                {/* Add more locations as needed */}
+                            </select>
+                            <select value={filterType} onChange={handleTypeFilter} className="w-full md:w-1/4 p-3 mb-4 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option value="">All Types</option>
+                                <option value="Full-time">Full-time</option>
+                                <option value="Part-time">Part-time</option>
+                                <option value="Remote">Remote</option>
+                                {/* Add more types as needed */}
+                            </select>
                         </div>
                         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                             {displayJobs.map((job) => (
@@ -84,6 +114,7 @@ const Career = () => {
                                     <h2 className="mt-4 text-2xl font-bold text-gray-800">{job.title}</h2>
                                     <p className="mt-2 text-gray-600">{job.description}</p>
                                     <p className="mt-2 text-gray-600">Location: {job.location}</p>
+                                    <p className="mt-2 text-gray-600">Type: {job.type}</p>
                                     <a 
                                         className="mt-4 bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors duration-300 inline-block"
                                         href={job.link}
