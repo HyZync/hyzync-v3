@@ -52,6 +52,7 @@ const Career = () => {
 
     const handlePageClick = ({ selected }) => {
         setCurrentPage(selected);
+        window.scrollTo({ top: 0, behavior: 'smooth' }); // Smooth scroll to top
     };
 
     const handleLocationFilter = (e) => {
@@ -105,7 +106,7 @@ const Career = () => {
                         </div>
                         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                             {displayJobs.map((job) => (
-                                <div key={job.id} className="job-card p-6 bg-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                                <div key={job.id} className="job-card p-6 bg-gray-100 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 fade-in">
                                     <img
                                         src={job.img}
                                         alt={job.title}
